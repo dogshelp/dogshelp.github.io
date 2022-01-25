@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Flaticon";
-  src: url("../fonts/flaticon/Flaticon.eot");
-  src: url("../fonts/flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/flaticon/Flaticon.woff") format("woff"),
-       url("../fonts/flaticon/Flaticon.ttf") format("truetype");
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
