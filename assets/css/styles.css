@@ -101,7 +101,7 @@ h5 {
      animation-delay: -0.32s;
 }
 /* Preloader icon */
- .spinner .bounce1:after {
+ .spinner .bounce:after {
      content: "\f112";
      position: absolute;
      font-family: "flaticon";
