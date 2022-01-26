@@ -1,0 +1,12 @@
+@import "common/base.css";
+@import "common/typography.css";
+@import "common/main-color.css";
+@import "layout/buttons.css";
+@import "common/background.css";
+@import "layout/preloader.css";
+@import "social-media.css";
+@import "layout/nav.css";
+@import "sections/adoption.css";
+@import "sections/contact.css";
+@import "layout/footer.css";
+@import "media-queries.css";
