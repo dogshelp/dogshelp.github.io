@@ -1,0 +1,21 @@
+ul.social-media {
+    list-style: none;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.social-media li {
+    margin: 0px 5px;
+    line-height: 55px;
+    display: inline-block;
+}
+
+ul.social-media li:hover {
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+
+ul.social-media i {
+    transition: all .3s ease-out;
+}
