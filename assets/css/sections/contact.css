@@ -2,7 +2,8 @@
     text-align: center;
     padding: 60px 20px 40px 20px;
     background-color: #fff;
-    border: 5px solid;
+    border-width: 5px;
+    border-style: solid;
     border-radius: 5px;
 }
 
