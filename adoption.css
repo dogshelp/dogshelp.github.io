@@ -1,0 +1,20 @@
+.adopt-card {
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.adopt-card:hover {
+    margin-top: -20px;
+}
+
+.adoption-header {
+    margin-top: 20px;
+}
+
+.pet-adopt-info h6 {
+    margin-bottom: 10px;
+}
+
+.pet-adopt-info span {
+    font-weight: 500;
+}
