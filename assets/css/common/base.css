@@ -33,3 +33,20 @@ a:hover, a:focus {
     font-weight: 700;
     font-size: 20px;
 }
+
+label {
+     margin-top: 10px;
+}
+
+/* border */
+ .border-irregular1{
+     border-radius: 155px 45px 225px 75px/15px 125px 15px 155px;
+}
+
+ .border-irregular2{
+     border-radius: 75px 125px 45px 155px/155px 15px 155px 15px;
+}
+
+ .border-double{
+     border: 10px double;
+}
