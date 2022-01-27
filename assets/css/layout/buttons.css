@@ -51,3 +51,25 @@
 button:focus {
     outline: 0;
 }
+/* Back to top btn*/
+.back-to-top {
+     display: none;
+     position: fixed;
+     bottom: 40px;
+     right: 42px;
+     transition: all 0.2s ease-in-out;
+     z-index: 119;
+}
+ .back-to-top i {
+     display: block;
+     width: 44px;
+     height: 44px;
+     line-height: 40px;
+     font-size: 32px;
+     color: #fff;
+     border-radius: 50%;
+     text-align: center;
+}
+ .back-to-top:hover{
+     transform: scale(1.3);
+}
