@@ -87,6 +87,8 @@
 
 /* navbar brand */
 .navbar-brand {
+    display: flex;
+    align-items: center;
     line-height: 20px;
     margin-top: 0;
 }
@@ -104,7 +106,11 @@
     margin-right: 10px;
     font-size: 45px;
     transform: scale(1);
-	animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+}
+
+.navbar-brand small {
+    font-size: 14px;
 }
 
 .navbar-toggler {
