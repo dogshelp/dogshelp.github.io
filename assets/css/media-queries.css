@@ -7,6 +7,14 @@
     .back-to-top {
          right: 12px;
     }
+    
+    .card {
+         padding: 20px;
+    }
+    
+    .card-header {
+         padding: .75rem 0rem;
+    }
 }
 
 /* Medium devices (tablets, 768px) The navbar toggle appears at this breakpoint */
@@ -205,4 +213,13 @@
 }
 
 /* Extra large devices (large desktops, 1920px or more) */
-@media (min-width: 1920px) {}
+@media (min-width: 1920px) {
+    .dog-bg1:before, 
+    .dog-bg2:before, 
+    .paws-house-bg1:before {
+         left: 18% 
+    }
+     .dog-bg3:before {
+         right: 18% 
+    }
+}
