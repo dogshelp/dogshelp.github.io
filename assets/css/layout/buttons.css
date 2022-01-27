@@ -59,6 +59,7 @@ button:focus {
      right: 42px;
      transition: all 0.2s ease-in-out;
      z-index: 119;
+    text-decoration: none;
 }
  .back-to-top i {
      display: block;
