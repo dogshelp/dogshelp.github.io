@@ -2,6 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #808080;
 }
+/* Section */
+section {
+    background: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 /* Links */
 a {
