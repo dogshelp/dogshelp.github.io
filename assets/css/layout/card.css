@@ -1,0 +1,18 @@
+ .card {
+     display:block;
+     border:0;
+     border-radius: 155px 45px 225px 75px/15px 125px 15px 155px;
+     padding: 40px;
+}
+
+ .card-header {
+     background:none;
+}
+
+ .card-title {
+     transition: all 0.2s ease-in-out;
+}
+
+ a .card-title:hover {
+     color: inherit;
+}
