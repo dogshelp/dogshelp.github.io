@@ -3,6 +3,10 @@
     .top-bar {
         display: none !important;
     }
+    
+    .back-to-top {
+         right: 12px;
+    }
 }
 
 /* Medium devices (tablets, 768px) The navbar toggle appears at this breakpoint */
