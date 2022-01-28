@@ -50,3 +50,9 @@ label {
  .border-double{
      border: 10px double;
 }
+
+.disabled, [disabled] {
+    pointer-events: none;
+    opacity: .6;
+    cursor: not-allowed;
+}
