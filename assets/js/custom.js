@@ -33,4 +33,7 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() });
 })
 	
+// Language switcher
+	const langSwitcher = $('#lang-switcher');
+	
 });
