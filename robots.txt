@@ -1,0 +1,7 @@
+User-agent: Yandex
+Allow: /
+
+User-Agent: *
+Allow: /
+
+Sitemap: https://dogshelp.github.io/sitemap.xml
