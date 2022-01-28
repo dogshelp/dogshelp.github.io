@@ -15,6 +15,9 @@
     .card-header {
          padding: .75rem 0rem;
     }
+    .section-1 {
+        margin-top: 75px;
+    }
 }
 
 /* Medium devices (tablets, 768px) The navbar toggle appears at this breakpoint */
@@ -94,7 +97,9 @@
     .contact-icon {
          margin-top: 20px;
     }
-    
+    .section-1 {
+        margin-top: 124px;
+    }
 }
 
 /* Medium- Large devices (desktops, 992px) */
@@ -173,9 +178,12 @@
         margin-top: 30px;
     }
 
-    /* jumbotron */
     .jumbotron {
         margin-top: 148px !important;
+    }
+    
+    .section-1 {
+        margin-top: 28px;
     }
 }
 
