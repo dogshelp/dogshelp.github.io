@@ -184,3 +184,7 @@ ul.social-list li a i {
     align-items: center;
     color: #fff;
 }
+
+.lang-switcher .nav-link {
+    display: inline-flex;
+}
