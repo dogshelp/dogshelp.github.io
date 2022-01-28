@@ -177,3 +177,10 @@ ul.social-list li a i {
     text-align: center;
     font-size: 18px;
 }
+
+/* Language switcher*/
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
