@@ -182,6 +182,7 @@ ul.social-list li a i {
 .lang-switcher {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #fff;
 }
 
