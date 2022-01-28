@@ -185,6 +185,14 @@ ul.social-list li a i {
     color: #fff;
 }
 
-.lang-switcher .nav-link {
+.lang-switcher .nav-link, .lang-switcher span {
     display: inline-flex;
+}
+
+.lang-switcher .nav-link:first-child {
+    padding-right: .5rem !important;
+}
+
+.lang-switcher .nav-link:last-child {
+    padding-left: .5rem !important;
 }
