@@ -18,3 +18,7 @@ footer .navbar-brand span {
     margin-bottom: 0;
     text-align: center;
 }
+
+footer cite {
+    margin-left: 53px;
+}
