@@ -53,6 +53,6 @@ label {
 
 .disabled, [disabled] {
     pointer-events: none;
-    opacity: .6;
+    opacity: .4;
     cursor: not-allowed;
 }
