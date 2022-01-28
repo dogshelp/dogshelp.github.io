@@ -1,17 +1,30 @@
 $(() => {
+	const offset = 200;
+	const duration = 250;
+	
   $(window).scroll(() => {
-		//Collapse the top bar on scroll
-		if ($("#main-nav").offset().top > 60) {
-			$('.top-bar').slideUp({
-				duration: 250,
-				easing: "easeInOutSine"
-			}).fadeOut(120);
-		} else {
-			$('.top-bar').slideDown({
-				duration: 0,
-				easing: "easeInOutSine"
-			}).fadeIn(120);
-		}
-	});
+	  const topBarEl = $('.top-bar');
+	  const backBtn = $('.back-to-top');
+	  
+	// Collapse the top bar on scroll
+	if ($("#main-nav").offset().top > 60) {
+		topBarEl.slideUp({
+			duration: duration,
+			easing: "easeInOutSine"
+		}).fadeOut(120);
+	} else {
+		topBarEl.slideDown({
+			duration: 0,
+			easing: "easeInOutSine"
+		}).fadeIn(120);
+	}
+	// Back Top Link
+	if ($(this).scrollTop() > offset) {
+		backBtn.fadeIn(400);
+	} else {
+		backBtn.fadeOut(400);
+	}
+  });
+
 
 });
