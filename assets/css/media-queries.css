@@ -122,6 +122,8 @@
 
     .navbar-collapse.show {
         max-height: 400px;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
     }
 
     .navbar-collapse {
@@ -138,11 +140,6 @@
 
     .navbar-collapse::-webkit-scrollbar-thumb {
         background-color: darkgray;
-    }
-
-    .navbar-collapse.show {
-        overflow-y: scroll !important;
-        overflow-x: hidden !important;
     }
 
     .jumbotron {
