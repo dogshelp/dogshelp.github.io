@@ -25,6 +25,12 @@ $(() => {
 		backBtn.fadeOut(400);
 	}
   });
-
-
+// hide navbar on click
+const navLinks = document.querySelectorAll('.nav-item');
+const menuToggle = document.getElementById('navbarResponsive');
+const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false});
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() });
+})
+	
 });
