@@ -2,10 +2,12 @@ User-agent: Yandex
 Allow: /
 Disallow: /assets/js
 Disallow: /assets/fonts
+Disallow: /assets/vendor
 
 User-Agent: *
 Allow: /
 Disallow: /assets/js
 Disallow: /assets/fonts
+Disallow: /assets/vendor
 
 Sitemap: https://dogshelp.github.io/sitemap.xml
