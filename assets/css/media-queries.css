@@ -18,6 +18,9 @@
     .section-1 {
         margin-top: 75px;
     }
+    .navbar-collapse.show, .navbar-collapse {
+         max-height: 300px !important;
+    }
 }
 
 /* Medium devices (tablets, 768px) The navbar toggle appears at this breakpoint */
@@ -174,6 +177,11 @@
         line-height: 45px;
     }
 
+    .navbar-collapse.show {
+         display: block;
+         padding-bottom: 40px;
+    }
+    
     .dropdown-menu {
         margin-top: 30px;
     }
