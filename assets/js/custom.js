@@ -34,7 +34,7 @@ navLinks.forEach((l) => {
 })
 });
 
-$(window).load(() => {
+/* $(window).load(() => {
 	// Page Preloader 	
 	$("#preloader").fadeOut("slow");
-});
+});*/
