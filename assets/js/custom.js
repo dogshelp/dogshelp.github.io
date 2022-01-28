@@ -33,3 +33,8 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() });
 })
 });
+
+$(window).load(() => {
+	// Page Preloader 	
+	$("#preloader").fadeOut("slow");
+});
