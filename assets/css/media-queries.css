@@ -3,23 +3,25 @@
     .top-bar {
         display: none !important;
     }
-    
+
     .back-to-top {
-         right: 12px;
+        right: 12px;
     }
-    
+
     .card {
-         padding: 20px;
+        padding: 20px;
     }
-    
+
     .card-header {
-         padding: .75rem 0rem;
+        padding: .75rem 0rem;
     }
+
     .section-1 {
         margin-top: 75px;
     }
+
     .navbar-collapse.show, .navbar-collapse {
-         max-height: 300px !important;
+        max-height: 300px !important;
     }
 }
 
@@ -49,58 +51,59 @@
     .jumbotron {
         margin-top: 149px;
     }
-    
+
     section {
-         padding-top: 40px;
-         padding-bottom: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
-    
-     .section-heading {
-         margin-bottom: 40px;
+
+    .section-heading {
+        margin-bottom: 10px;
     }
-    
-     .section-heading:before {
-         font-size: 40px;
+
+    .section-heading:before {
+        font-size: 40px;
     }
-    
-     h1 {
-         font-size:2.4em;
+
+    h1 {
+        font-size: 2.4em;
     }
-    
-     h2 {
-         font-size:2.0em;
+
+    h2 {
+        font-size: 2.0em;
     }
-    
-     h3 {
-         font-size: 1.7em;
+
+    h3 {
+        font-size: 1.7em;
     }
-    
-     h4,
+
+    h4,
     .section-heading__subtitle {
-         font-size: 1.5em;
+        font-size: 1.5em;
     }
-    
-     .h7 {
-         font-size:16px;
-         line-height:27px;
+
+    .h7 {
+        font-size: 16px;
+        line-height: 27px;
     }
-    
+
     footer {
-         padding:30px;
+        padding: 30px;
     }
-    
+
     .mt-5, .my-5 {
-         margin-top: 1rem!important;
+        margin-top: 1rem !important;
     }
-    
-     .contact-icon:hover .top-icon {
-         top: -20px;
+
+    .contact-icon:hover .top-icon {
+        top: -20px;
     }
-    
-    .contact-icon .top-icon, 
+
+    .contact-icon .top-icon,
     .contact-icon {
-         margin-top: 20px;
+        margin-top: 20px;
     }
+
     .section-1 {
         margin-top: 95px;
     }
@@ -146,20 +149,20 @@
     .jumbotron {
         margin-top: 140px;
     }
-    
-    .dog-bg1:before, 
-    .dog-bg2:before, 
-    .paws-house-bg1:before, 
+
+    .dog-bg1:before,
+    .dog-bg2:before,
+    .paws-house-bg1:before,
     .dog-bg3:before {
-         display:none;
+        display: none;
     }
-    
-     .res-margin{
-         margin-top:30px;
+
+    .res-margin {
+        margin-top: 30px;
     }
-    
-     .adopt-card:hover{
-         margin-top:30px;
+
+    .adopt-card:hover {
+        margin-top: 30px;
     }
 }
 
@@ -176,10 +179,10 @@
     }
 
     .navbar-collapse.show {
-         display: block;
-         padding-bottom: 40px;
+        display: block;
+        padding-bottom: 40px;
     }
-    
+
     .dropdown-menu {
         margin-top: 30px;
     }
@@ -187,7 +190,7 @@
     .jumbotron {
         margin-top: 148px !important;
     }
-    
+
     .section-1 {
         margin-top: 28px;
     }
@@ -221,19 +224,20 @@
         padding-bottom: 40px;
     }
 
-    .jumbotron{
+    .jumbotron {
         margin-top: 100px;
     }
 }
 
 /* Extra large devices (large desktops, 1920px or more) */
 @media (min-width: 1920px) {
-    .dog-bg1:before, 
-    .dog-bg2:before, 
+    .dog-bg1:before,
+    .dog-bg2:before,
     .paws-house-bg1:before {
-         left: 18% 
+        left: 18%
     }
-     .dog-bg3:before {
-         right: 18% 
+
+    .dog-bg3:before {
+        right: 18%
     }
 }

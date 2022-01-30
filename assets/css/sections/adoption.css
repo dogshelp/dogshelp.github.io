@@ -22,3 +22,34 @@
 .pet-adopt-info span {
     font-weight: 500;
 }
+
+/* custom ul */
+ul.custom {
+    list-style: none;
+}
+
+ul.custom li {
+    padding: 5px 0;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+ul.custom li:before {
+    font-family: Flaticon;
+    content: "\f126";
+    padding-right: 7px;
+}
+
+.modal-footer .btn {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.modal-header {
+    padding: 5px 10px;
+}
+
+.modal-body .block-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

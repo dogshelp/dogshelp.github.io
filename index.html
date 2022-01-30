@@ -1,442 +1,544 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="utf-8">
-		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Dogs Help</title>
-		<meta name="keywords" content="собака, собака бесплатно, собака в дар, приют, животные, Ричард, Лакки, Джек, Грэйер, бездомные собаки, помощь собакам, взять собаку, приют для собак, питомник собак, передержка для собак, купить собаку, собачий приют, эгида, бездомные собаки, собаки">
-		<meta name="description" content="Хотите взять собаку в дар - выбирайте! Собаки привиты, с паспортом. Отдаем в дар по договору, не на цепь, в хорошую семью.">
-		<meta name="MobileOptimized" content="width">
-		<meta name="HandheldFriendly" content="true">
-		
-		<link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico">
-		
-		<link href="assets/fonts/Font_Awesome/css/fontawesome.min.css" rel="stylesheet" type="text/css">
-		<link href="assets/fonts/Font_Awesome/css/solid.min.css" rel="stylesheet" type="text/css">
-		<link href="assets/fonts/Font_Awesome/css/brands.min.css" rel="stylesheet" type="text/css">
-		<link href="assets/fonts/Flaticon/flaticon.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dogs Help</title>
+    <meta name="keywords"
+          content="собака, собака бесплатно, собака в дар, приют, животные, Ричард, Лакки, Джек, Грэйер, бездомные собаки, помощь собакам, взять собаку, приют для собак, питомник собак, передержка для собак, купить собаку, собачий приют, эгида, бездомные собаки, собаки">
+    <meta name="description"
+          content="Хотите взять собаку в дар - выбирайте! Собаки привиты, с паспортом. Отдаем в дар по договору, не на цепь, в хорошую семью.">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
 
-		<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico">
 
-		<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="assets/js/jquery-3.6.0.min.js"></script>
-		<script src="assets/js/jquery.easing.1.3.js"></script>
-	</head>
-	<body>
-		<div class="preloader d-none" id="preloader">
-			<div class="spinner">
-				<div class="bounce"></div>
-			</div>
-		</div>
-		<nav id="main-nav" class="navbar-expand-xl fixed-top">
-			<div class="row">
-				<div class="container-fluid top-bar">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<ul class="contact-details float-left">
-									<li><i class="fas fa-map-marker"></i>Minsk, BY</li>
-									<li><i class="fas fa-envelope"></i><a href="mailto:dogs.help.by@gmail.com">dogs.help.by@gmail.com</a></li>
-									<li><i class="fas fa-phone"></i>+375 (44) 511 - 4536</li>
-								</ul>
-								<ul class="social-list float-right list-inline">
-									<li class="list-inline-item">
-										<a title="Telegram" href="https://t.me/dogandi" target="_blank" rel="noopener noreferrer">
-											<i class="fab fa-telegram-plane"></i>
-										</a>
-									</li>
-									<li class="list-inline-item">
-										<a href="viber://chat?number=375445114536" class="d-lg-none" title="Viber">
-											<i class="fab fa-viber"></i>
-										</a>
-										<a href="viber://chat?number=+375445114536" class="d-none d-lg-block" title="Viber">
-											<i class="fab fa-viber"></i>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="navbar container-fluid">
-					<div class="container ">
-						<a class="navbar-brand" href="index.html">
-							<i class="flaticon-dog-20"></i><span>Dogs Help<br><small>us get better</small></span>
-						</a>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-								data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-								aria-expanded="false" aria-label="Toggle navigation">
+    <link href="assets/fonts/Font_Awesome/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/Font_Awesome/css/solid.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/Font_Awesome/css/brands.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/Flaticon/flaticon.css" rel="stylesheet" type="text/css">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+</head>
+<body>
+<div class="preloader d-none" id="preloader">
+    <div class="spinner">
+        <div class="bounce"></div>
+    </div>
+</div>
+<nav id="main-nav" class="navbar-expand-xl fixed-top">
+    <div class="row">
+        <div class="container-fluid top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="contact-details float-left">
+                            <li><i class="fas fa-map-marker"></i>Minsk, BY</li>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:dogs.help.by@gmail.com">dogs.help.by@gmail.com</a>
+                            </li>
+                            <li><i class="fas fa-phone"></i><a href="tel:+375445114536">+375 (44) 511 - 4536</a></li>
+                        </ul>
+                        <ul class="social-list float-right list-inline">
+                            <li class="list-inline-item">
+                                <a title="Telegram" href="https://t.me/dogandi" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="viber://chat?number=375445114536" class="d-lg-none" title="Viber">
+                                    <i class="fab fa-viber"></i>
+                                </a>
+                                <a href="viber://chat?number=+375445114536" class="d-none d-lg-block" title="Viber">
+                                    <i class="fab fa-viber"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar container-fluid">
+            <div class="container ">
+                <a class="navbar-brand" href="index.html">
+                    <i class="flaticon-dog-20"></i><span>Dogs Help<br><small>us get better</small></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                        aria-expanded="false" aria-label="Toggle navigation">
 							  <span class="navbar-toggle-icon">
 								 <i class="fas fa-bars"></i>
 							  </span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarResponsive">
-							<ul class="navbar-nav ms-auto">
-								<li class="nav-item">
-									<a class="nav-link" href="#adopt">Собаки ищут дом</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#contact">Контакты</a>
-								</li>
-								<li class="nav-item lang-switcher" id="lang-switcher">
-									<a class="nav-link disabled" href="#" disabled>Рус</a>
-									<span> | </span>
-									<a class="nav-link" href="index-eng.html">Eng</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#adopt">Собаки ищут дом</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Контакты</a>
+                        </li>
+                        <li class="nav-item lang-switcher" id="lang-switcher">
+                            <a class="nav-link disabled" href="#" disabled>Рус</a>
+                            <span> | </span>
+                            <a class="nav-link" href="index-eng.html">Eng</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
 
-		<section id="adopt" class="section-1 dog-bg1 bg-light">
-			<div class="container">
-				<div class="section-heading text-center">
-					<h3>Зачем покупать?</h3>
-				</div>
-				<div class="col-lg-10 offset-lg-1 text-center">
-					<h4>Возьми друга</h4>
-					<p>Собаки под опекой группы "Собаки Московского района Минска".</p>
-				</div>
-				<div class="row mt-5">
-					<div class="adopt-card col-md-6 col-xl-3 res-margin">
-						<div class="card bg-light-custom">
-							<div class="thumbnail text-center">
-								<img src="assets/images/rich_logo.jpg" class="border-irregular1 img-fluid" alt="Ричард">
-								<div class="caption-adoption">
-									<h6 class="adoption-header">Ричард</h6>
-									<ul class="list-unstyled">
-										<li><strong>пол:</strong> самец</li>
-										<li><strong>Кастрирован:</strong> нет</li>
-										<li><strong>Возраст:</strong> ~ 3 года</li>
-										<li><strong>Привит:</strong> да</li>
-									</ul>
-									<div class="text-center">
-										<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">история Рича</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="adopt-card col-md-6 col-xl-3 res-margin">
-						<div class="card bg-light-custom">
-							<div class="thumbnail text-center">
-								<img src="assets/images/grayer_logo.jpg" class="border-irregular1 img-fluid" alt="Грэйер">
-								<div class="caption-adoption">
-									<h6 class="adoption-header">Грэйер</h6>
-									<ul class="list-unstyled">
-										<li><strong>Пол:</strong> самец</li>
-										<li><strong>Кастрирован:</strong> нет</li>
-										<li><strong>Возраст:</strong> ~ 1,5 года</li>
-										<li><strong>Привит:</strong> да</li>
-									</ul>
-									<div class="text-center">
-										<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">история Грэя</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="adopt-card col-md-6 col-xl-3 res-margin">
-						<div class="card bg-light-custom">
-							<div class="thumbnail text-center">
-								<img src="assets/images/laki_logo.jpg" class="border-irregular1 img-fluid" alt="Лаки">
-								<div class="caption-adoption">
-									<h6 class="adoption-header">Лаки</h6>
-									<ul class="list-unstyled">
-										<li><strong>Пол:</strong> самка</li>
-										<li><strong>Стерилизована:</strong> нет</li>
-										<li><strong>Возраст:</strong> ~ 1 год</li>
-										<li><strong>Привита:</strong> да</li>
-									</ul>
-									<div class="text-center">
-										<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">история Лаки</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="adopt-card col-md-6 col-xl-3 res-margin">
-						<div class="card bg-light-custom">
-							<div class="thumbnail text-center">
-								<img src="assets/images/jack_logo.jpg" class="border-irregular1 img-fluid" alt="Джек">
-								<div class="caption-adoption">
-									<h6 class="adoption-header">Джек</h6>
-									<ul class="list-unstyled">
-										<li><strong>Пол:</strong> самец</li>
-										<li><strong>Кастрирован:</strong> нет</li>
-										<li><strong>Возраст:</strong> ~ 1 год</li>
-										<li><strong>Привит:</strong> да</li>
-									</ul>
-									<div class="text-center">
-										<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-4">история Джека</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+<section id="adopt" class="section-1 dog-bg1 bg-light">
+    <div class="container">
+        <div class="section-heading text-center">
+            <h3>Зачем покупать?</h3>
+        </div>
+        <div class="col-lg-10 offset-lg-1 text-center">
+            <h4>Возьми друга</h4>
+            <p>Собаки под опекой группы "Собаки Московского района Минска".</p>
+        </div>
+        <div class="row mt-5">
+            <div class="adopt-card col-md-6 col-xl-3 res-margin">
+                <div class="card bg-light-custom">
+                    <div class="thumbnail text-center">
+                        <img src="assets/images/rich_logo.jpg" class="border-irregular1 img-fluid" alt="Ричард">
+                        <div class="caption-adoption">
+                            <h6 class="adoption-header">Ричард</h6>
+                            <ul class="list-unstyled">
+                                <li><strong>пол:</strong> самец</li>
+                                <li><strong>Кастрирован:</strong> нет</li>
+                                <li><strong>Возраст:</strong> ~ 3 года</li>
+                                <li><strong>Привит:</strong> да</li>
+                            </ul>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal-1">история Рича
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="adopt-card col-md-6 col-xl-3 res-margin">
+                <div class="card bg-light-custom">
+                    <div class="thumbnail text-center">
+                        <img src="assets/images/grayer_logo.jpg" class="border-irregular1 img-fluid" alt="Грэйер">
+                        <div class="caption-adoption">
+                            <h6 class="adoption-header">Грэйер</h6>
+                            <ul class="list-unstyled">
+                                <li><strong>Пол:</strong> самец</li>
+                                <li><strong>Кастрирован:</strong> нет</li>
+                                <li><strong>Возраст:</strong> ~ 1,5 года</li>
+                                <li><strong>Привит:</strong> да</li>
+                            </ul>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal-2">история Грэя
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="adopt-card col-md-6 col-xl-3 res-margin">
+                <div class="card bg-light-custom">
+                    <div class="thumbnail text-center">
+                        <img src="assets/images/laki_logo.jpg" class="border-irregular1 img-fluid" alt="Лаки">
+                        <div class="caption-adoption">
+                            <h6 class="adoption-header">Лаки</h6>
+                            <ul class="list-unstyled">
+                                <li><strong>Пол:</strong> самка</li>
+                                <li><strong>Стерилизована:</strong> нет</li>
+                                <li><strong>Возраст:</strong> ~ 1 год</li>
+                                <li><strong>Привита:</strong> да</li>
+                            </ul>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal-3">история Лаки
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="adopt-card col-md-6 col-xl-3 res-margin">
+                <div class="card bg-light-custom">
+                    <div class="thumbnail text-center">
+                        <img src="assets/images/jack_logo.jpg" class="border-irregular1 img-fluid" alt="Джек">
+                        <div class="caption-adoption">
+                            <h6 class="adoption-header">Джек</h6>
+                            <ul class="list-unstyled">
+                                <li><strong>Пол:</strong> самец</li>
+                                <li><strong>Кастрирован:</strong> нет</li>
+                                <li><strong>Возраст:</strong> ~ 1 год</li>
+                                <li><strong>Привит:</strong> да</li>
+                            </ul>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal-4">история Джека
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-		<section id="contact" class="section-2 dog-bg3">
-			<div class="container">
-				<div class="section-heading text-center">
-					<h3>Свяжитесь с нами</h3>
-				</div>
-			</div>
-			<div class="container">
-				<!--<div class="row justify-content-center">
-					<div class="contact-info col-lg-5 card bg-light-custom">
-						<h6 class="text-center">Отправьте сообщение!</h6>
-						<div>
-							<div class="form-group">
-								<div class="row">
-									<div class="col-md-6">
-										<label>Имя<span class="required">*</span></label>
-										<input type="text" name="name" class="form-control input-field" required="">
-									</div>
-									<div class="col-md-6">
-										<label>Email <span class="required">*</span></label>
-										<input type="email" name="email" class="form-control input-field" required="">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<label>Тема</label>
-										<input type="text" name="subject" class="form-control input-field">
-									</div>
-									<div class="col-md-12">
-										<label>Сообщение<span class="required">*</span></label>
-										<textarea name="message" id="message" class="textarea-field form-control" rows="3" required=""></textarea>
-									</div>
-								</div>
-								<button type="submit" id="submit_btn" value="Submit" class="btn btn-primary">Отправить</button>
-							</div>
-							<div id="contact_results"></div>
-						</div>
-					</div>
-				</div>-->
-				<div class="row res-margin mt-5">
-					<div class="contact-card col-lg-6 mt-5">
-						<div class="contact-icon">
-							<i class="fas fa-envelope top-icon"></i>
-							<div class="contact-icon-info">
-								<h5>Напишите нам</h5>
-								<p class="h7"><a href="mailto:dogs.help.by@gmail.com?subject=%D0%98%D1%89%D1%83%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D1%83">dogs.help.by@gmail.com</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="contact-card col-lg-6 mt-5">
-            					<div class="contact-icon">
-               						<i class="fas fa-map-marker top-icon"></i>
-							<div class="contact-icon-info">
-								<h5>Посети друга</h5>
-								<p class="h7">Минск, Беларусь</p>
-							</div>
-            					</div>
-					</div>
-					<div class="contact-card col-lg-6 mt-5">
-						<div class="contact-icon">
-							<i class="fas fa-phone top-icon"></i>
-							<div class="contact-icon-info">
-								<h5>Позвони сегодня</h5>
-								<p class="h7">+375 (44) 511-4536</p>
-							</div>
-						</div>
-					</div>
-					<div class="contact-card col-lg-6 mt-5">
-						<div class="contact-icon">
-							<i class="fas fa-heart top-icon"></i>
-							<div class="contact-icon-info">
-								<h5>Мы в чатах</h5>
-								<ul class="social-media">
-									<li>
-										<a title="Telegram" href="https://t.me/dogandi" target="_blank" rel="noopener noreferrer">
-											<i class="fab fa-telegram-plane"></i>
-										</a>
-									</li>
-									<li>
-										<a href="viber://chat?number=375445114536" class="d-lg-none" title="Viber">
-											<i class="fab fa-viber"></i>
-										</a>
-										<a href="viber://chat?number=+375445114536" class="d-none d-lg-block" title="Viber">
-											<i class="fab fa-viber"></i>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+<section id="contact" class="section-2 dog-bg3">
+    <div class="container">
+        <div class="section-heading text-center">
+            <h3>Свяжитесь с нами</h3>
+        </div>
+    </div>
+    <div class="container">
+        <!--<div class="row justify-content-center">
+            <div class="contact-info col-lg-5 card bg-light-custom">
+                <h6 class="text-center">Отправьте сообщение!</h6>
+                <div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Имя<span class="required">*</span></label>
+                                <input type="text" name="name" class="form-control input-field" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label>Email <span class="required">*</span></label>
+                                <input type="email" name="email" class="form-control input-field" required="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Тема</label>
+                                <input type="text" name="subject" class="form-control input-field">
+                            </div>
+                            <div class="col-md-12">
+                                <label>Сообщение<span class="required">*</span></label>
+                                <textarea name="message" id="message" class="textarea-field form-control" rows="3" required=""></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" id="submit_btn" value="Submit" class="btn btn-primary">Отправить</button>
+                    </div>
+                    <div id="contact_results"></div>
+                </div>
+            </div>
+        </div>-->
+        <div class="row res-margin mt-5">
+            <div class="contact-card col-lg-6 mt-5">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope top-icon"></i>
+                    <div class="contact-icon-info">
+                        <h5>Напишите нам</h5>
+                        <p class="h7"><a
+                                href="mailto:dogs.help.by@gmail.com?subject=%D0%98%D1%89%D1%83%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D1%83">dogs.help.by@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-card col-lg-6 mt-5">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker top-icon"></i>
+                    <div class="contact-icon-info">
+                        <h5>Посети друга</h5>
+                        <p class="h7">Минск, Беларусь</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-card col-lg-6 mt-5">
+                <div class="contact-icon">
+                    <i class="fas fa-phone top-icon"></i>
+                    <div class="contact-icon-info">
+                        <h5>Позвони сегодня</h5>
+                        <p class="h7">+375 (44) 511-4536</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-card col-lg-6 mt-5">
+                <div class="contact-icon">
+                    <i class="fas fa-heart top-icon"></i>
+                    <div class="contact-icon-info">
+                        <h5>Мы в чатах</h5>
+                        <ul class="social-media">
+                            <li>
+                                <a title="Telegram" href="https://t.me/dogandi" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="viber://chat?number=375445114536" class="d-lg-none" title="Viber">
+                                    <i class="fab fa-viber"></i>
+                                </a>
+                                <a href="viber://chat?number=+375445114536" class="d-none d-lg-block" title="Viber">
+                                    <i class="fab fa-viber"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-		<footer class="text-light">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<a class="navbar-brand" href="index.html"><i class="flaticon-dog-20"></i><span>Dogs Help<br><small>us get better</small></span></a>
-						
-						<cite class=""><small>
-							<i class="fas fa-quote-left"></i>
-							Собаки делают нас лучше.
-							<i class="fas fa-quote-right"></i>
-						</small></cite>
-						
-						<p class="mt-3">Собаки под опекой группы <br/>"Собаки Московского района Минска"</p>
-					</div>
-					<div class="col-lg-3">
-						<h6><i class="fas fa-envelope margin-icon"></i>Контакты</h6>
-						<ul class="list-unstyled">
-							<li>+375 (44) 511 - 4536</li>
-							<li><a href="mailto:dogs.help.by@gmail.com?subject=%D0%98%D1%89%D1%83%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D1%83" title="напишите нам">dogs.help.by@gmail.com</a></li>
-							<li>Минск</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="credits col-sm-12">
-						<p>&copy; 2022</p>
-					</div>
-				</div>
-			</div>
-			<div class="page-scroll hidden-sm hidden-xs">
-				<a href="#top" class="back-to-top" style="display: inline;"><i class="fas fa-angle-up"></i></a>
-			</div>
-		</footer>
-	<!-- Modals -->
-		<!-- modal 1 -->
-	<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true" style="display: none;">
-  	<div class="modal-dialog modal-fullscreen">
-    		<div class="modal-content">
-      			<div class="modal-header">
-        			<h5 class="modal-title h4" id="modal-label-1">История Ричарда</h5>
-        			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      			</div>
-      			<div class="modal-body dog-bg2">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="row bg-light-custom border-irregular1 block-padding">
-               							<div class="col-lg-4 offset-lg-2">
-                 							<img alt="Ричард" class="img-thumbnail" src="assets/images/1_1.jpg"/>
-               							</div>
-           
-               							<div class="col-lg-4 res-margin mt-5 text-xs-center">
-                  							<h4><strong>Имя:</strong> Ричард</h4>
-				   					<div class="row">
-					  					<div class="col-sm-6">
-						  					<ul class="list-unstyled pet-adopt-info">
-							 					<li class="h7">Пол:<span> самец</span></li>
-							 					<li class="h7">Возраст:<span> 3 года</span></li>
-						  					</ul>
-					  					</div>
-					   					<div class="col-sm-6">
-						  					<ul class="list-unstyled pet-adopt-info">
-							 					<li class="h7">Кастрирован:<span> Нет</span></li>
-							 					<li class="h7">Вакцинирован:<span> Да</span></li>
-							 					<li class="h7">Размер:<span> Средний</span></li>
-						  					</ul>
-				     	  					</div>
-				    					</div>
-				    					<p class="font-weight-bold">текст</p>            
-			   					</div>
-  							</div>
-							
-							<div class="col-md-12 mt-5">
-			   					<h3>Кто такой Ричард?</h3>
+<footer class="text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <a class="navbar-brand" href="index.html"><i class="flaticon-dog-20"></i><span>Dogs Help<br><small>us get better</small></span></a>
 
-                  						<ul class="custom list-inline font-weight-bold">
-                     							<li class="list-inline-item">Дружелюбен к другим собакам</li>
-                     							<li class="list-inline-item">Подходит для квартиры</li>
-                     							<li class="list-inline-item">Friendly with Kids</li>
-                  						</ul>
-                  						<p>
-								Был найден на улице, как и его друг Грэйер. Сейчас оба живут в вольере в д.Боровляны на платной передержке, но оба очень ищут теплый дом, где царит любовь, забота и есть что покушать!
-								</p>
-								<p>
-								Парень немного пугливый, видимо несладко ему приходилось в прошлой жизни, но очень добрый, ласковый и тихий. Хорошо контактируем с другими животными, даже с кобелями! Приучен к 2-ух разовому выгулу, знаком с проездом в автомобиле. Питается кашей с мясом 2 раза в день + на полдник - сухой корм (для набора веса перед зимовкой в вольере).
-								</p>
-                  <p>
-					+375445114536 Настя
-					<br>
-					+375256209966 передержка (Павел)
-				</p>
-                  						<div class="alert alert-primary mt-5" role="alert">
-                     							<h6 class="text-light">Правила усыновления</h6>
-                     							<p>Будет отдан по договору с ненавязчивым отслеживанием судьбы.</p>
-									<p>Не на цепь.</p>
-                  						</div>
-               						</div>
-						</div>
-					</div>
-				</div>
-	
-				
-      			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-      			</div>
-    		</div>
- 	 </div>
-	</div>
-		<!-- modal 2 -->
-	<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true" style="display: none;">
-  	<div class="modal-dialog modal-fullscreen">
-    		<div class="modal-content">
-      			<div class="modal-header">
-        			<h5 class="modal-title h4" id="modal-label-2">История Грэя</h5>
-        			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      			</div>
-      			<div class="modal-body dog-bg2">
-				здесь будет история
-			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-      			</div>
-    		</div>
- 	 </div>
-	</div>
-		<!-- modal 3 -->
-		<div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true" style="display: none;">
-  	<div class="modal-dialog modal-fullscreen">
-    		<div class="modal-content">
-      			<div class="modal-header">
-        			<h5 class="modal-title h4" id="modal-label-3">История Лаки</h5>
-        			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      			</div>
-      			<div class="modal-body dog-bg2">
-				здесь будет история
-			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-      			</div>
-    		</div>
- 	 </div>
-	</div>
-		<!-- modal 4 -->
-		<div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true" style="display: none;">
-  	<div class="modal-dialog modal-fullscreen">
-    		<div class="modal-content">
-      			<div class="modal-header">
-        			<h5 class="modal-title h4" id="modal-label-4">История Джека</h5>
-        			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      			</div>
-      			<div class="modal-body dog-bg2">
-				здесь будет история
-			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-      			</div>
-    		</div>
- 	 </div>
-	</div>
-		
-	<script src="assets/js/custom.js"></script>
-  </body>
+                <cite class=""><small>
+                    <i class="fas fa-quote-left"></i>
+                    Собаки делают нас лучше.
+                    <i class="fas fa-quote-right"></i>
+                </small></cite>
+
+                <p class="mt-3">Собаки под опекой группы <br/>"Собаки Московского района Минска"</p>
+            </div>
+            <div class="col-lg-3">
+                <h6><i class="fas fa-envelope margin-icon"></i>Контакты</h6>
+                <ul class="list-unstyled">
+                    <li>+375 (44) 511 - 4536</li>
+                    <li>
+                        <a href="mailto:dogs.help.by@gmail.com?subject=%D0%98%D1%89%D1%83%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D1%83"
+                           title="напишите нам">dogs.help.by@gmail.com</a></li>
+                    <li>Минск</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="credits col-sm-12">
+                <p>&copy; 2022</p>
+            </div>
+        </div>
+    </div>
+    <div class="page-scroll hidden-sm hidden-xs">
+        <a href="#top" class="back-to-top" style="display: inline;"><i class="fas fa-angle-up"></i></a>
+    </div>
+</footer>
+<!-- Modals -->
+<!-- modal 1 -->
+<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title h4" id="modal-label-1">История Ричарда</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body dog-bg2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row bg-light-custom block-padding">
+                                <div class="col-lg-4 offset-lg-2">
+                                    <div id="carouselIndicators1" class="carousel slide" data-bs-ride="carousel"
+                                         data-bs-pause="hover">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselIndicators1"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators1"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators1"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators1"
+                                                    data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators1"
+                                                    data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators1"
+                                                    data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators1"
+                                                    data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/1_1.jpg" class="d-block w-100" alt="Ричард">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/1_8.jpg" class="d-block w-100" alt="Ричард">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/1_9.jpg" class="d-block w-100" alt="Ричард">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/1_5.jpg" class="d-block w-100" alt="Ричард">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/1_6.jpg" class="d-block w-100" alt="Ричард">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/1_7.jpg" class="d-block w-100" alt="Ричард">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/1_3.jpg" class="d-block w-100" alt="Ричард">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselIndicators1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselIndicators1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 res-margin mt-5 text-xs-center">
+                                    <h4><strong>Имя:</strong> Рич (Ричард)</h4>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul class="list-unstyled pet-adopt-info">
+                                                <li class="h7">Пол:<span> самец</span></li>
+                                                <li class="h7">Возраст:<span> 3 года</span></li>
+                                                <li class="h7">Вес:<span> ~ 16 кг</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul class="list-unstyled pet-adopt-info">
+                                                <li class="h7">Кастрирован:<span> Нет</span></li>
+                                                <li class="h7">Вакцинирован:<span> Да</span></li>
+                                                <li class="h7">Размер:<span> Средний</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p class="fw-bold">Рич - интелегент, добрый и активный, готов к переезду в новый
+                                        дом.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 mt-5">
+                                <h3>Кто такой Ричард?</h3>
+
+                                <ul class="custom list-inline fw-bold">
+                                    <li class="list-inline-item">Дружелюбен к другим собакам</li>
+                                    <li class="list-inline-item">Подходит для квартиры</li>
+                                    <li class="list-inline-item">Легко идет на контакт к людям</li>
+                                </ul>
+                                Ричу около 3-х лет, он немного пугливый, видимо не сладко приходилось в прошлой жизни,
+                                но очень добрый и ласковый. Хорошо контактирует с другими животными, даже с кобелями!
+                                Приучен к 2-ух разовому выгулу, знаком с проездом в автомобиле. Питается кашей с мясом
+                                (2 раза в день) + на полдник - сухой корм (для набора веса в зимовку для вольера).
+                                Подойдет для активных людей.
+                                Находится под опекой группы "Собаки Московского района" ТГ-канала. Для связи можно
+                                писать в чат группы , либо звонить по телефону указанному здесь. Будет отдан по договору
+                                с ненавязчивым отслеживанием судьбы.
+                                <p>
+                                    Был найден в парке, отвезен в платную вольерную передержку. Но за это время никто
+                                    его не искал. Ему бы теплый дом, где царит любовь, забота и есть что покушать!
+                                </p>
+                                <p>
+                                    Рич проглистован и привит, впереди предстоит кастрация (обязательно!), но лучше это
+                                    сделать, когда пес найдет новый теплый дом!
+                                </p>
+                                <p>
+                                    Парень немного пугливый, видимо несладко ему приходилось в прошлой жизни, но очень
+                                    добрый, ласковый и тихий. Хорошо контактируем с другими животными, даже с кобелями!
+                                    Приучен к 2-ух разовому выгулу, знаком с проездом в автомобиле. Питается кашей с
+                                    мясом 2 раза в день, на полдник получает сухой корм для набора веса во время зимовки
+                                    в
+                                    вольере.
+                                </p>
+                                <p>
+                                    Находится под опекой группы "Собаки Московского района Минска". Для связи можно
+                                    писать в телеграмм-чат группы, либо звонить по телефонам указанным ниже.
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-phone"></i>
+                                        <a href="tel:+375445114536">+375 (44) 511 - 4536</a> Настя
+                                    </li>
+                                    <li><i class="fas fa-phone"></i>
+                                        <a href="tel:+375256209966">+375 (25) 620 - 9966</a> Павел (передержка)
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-telegram-plane"></i>
+                                        <a title="Telegram" href="https://t.me/dogandi" target="_blank"
+                                           rel="noopener noreferrer">
+                                            группа "Собаки Московского района"
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="alert alert-primary mt-5" role="alert">
+                                    <h6 class="text-light">Правила усыновления</h6>
+                                    <p>Будет отдан по договору с ненавязчивым отслеживанием судьбы.</p>
+                                    <p>Не на цепь.</p>
+                                    <p>Не в будку.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal 2 -->
+<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title h4" id="modal-label-2">История Грэя</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body dog-bg2">
+                здесь будет история
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal 3 -->
+<div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title h4" id="modal-label-3">История Лаки</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body dog-bg2">
+                здесь будет история
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal 4 -->
+<div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="exampleModalFullscreenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title h4" id="modal-label-4">История Джека</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body dog-bg2">
+                здесь будет история
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/custom.js"></script>
+</body>
 </html>
 
