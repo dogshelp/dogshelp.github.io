@@ -241,3 +241,9 @@
         right: 18%
     }
 }
+
+@media (min-width: 992px) {
+    .carousel {
+        max-width: 300px;
+    }
+}
