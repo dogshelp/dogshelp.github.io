@@ -70,3 +70,11 @@ label {
 .alert-primary, .alert-secondary {
     color: #fff;
 }
+
+.section-2 {
+    padding-top: 40px;
+}
+
+.section-1, .section-2 {
+    padding-bottom: 40px;
+}
