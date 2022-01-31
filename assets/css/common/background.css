@@ -27,6 +27,7 @@
 
 .dog-bg3:before {
     right: 10%;
+    top: -45px;
     content: "\f16c";
 }
 
