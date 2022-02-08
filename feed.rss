@@ -7,16 +7,15 @@
 		<description>Хотите взять собаку в дар - выбирайте! Собаки привиты, с паспортом. Отдаем в дар по договору, не на цепь, в хорошую семью.</description>
 		<language>ru</language>
 		<pubDate>Tue, 08 Feb 2022 05:31:09 +0200</pubDate>
-		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
 
 		<item turbo="true">
 			<guid isPermaLink="false">3320293356</guid>
-			<title>Dogs Help | Dogs Rehoming &amp; Dog Rescue</title>
-			<link>https://dogshelp.github.io/index-eng.html</link>
+			<title>Dogs Help | Собаки ищут дом</title>
+			<link>https://dogshelp.github.io/index.html</link>
 			<author>Администратор</author>
 			<category>Новости сайта</category>
-			<description>Looking to rehome a rescue dog? View photos of adoptable dogs, then contact us to meet your potential new pet today!</description>
-			<turbo:content><![CDATA[<header>	<h1>Dogs Help | Dogs Rehoming & Dog Rescue</h1></header><p>Dogs under the tutelage of the "Dogs of the Moscow region of Minsk" group.</p><p><img src="https://dogshelp.github.io/assets/images/rich_logo.jpg"></p>]]></turbo:content>
+			<description>Собаки безвозмездно по договору, привиты, с паспортом. Каждая собака имеет свою историю, находятся на передержках и ждут своего единственного хозяина.</description>
+			<turbo:content><![CDATA[<header>	<h1>Dogs Help | СОбаки ищут дом</h1></header><p>Собаки находятся под опекой группы "Собаки Московского района Минска".</p><p><img src="https://dogshelp.github.io/assets/images/rich_logo.jpg"></p>]]></turbo:content>
 			<pubDate>Tue, 08 Feb 2022 05:31:10 +0200</pubDate>
 			<enclosure url="https://dogshelp.github.io/assets/images/dogsHelp.png" type="image/png" />
 		</item>
