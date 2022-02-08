@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
- <!--created with www.maxim-m.ru-->
  <rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/"
  xmlns:turbo="http://turbo.yandex.ru" version="2.0">
  <channel>
- <turbo:cms_plugin>MaxImco Genarator</turbo:cms_plugin>
- <title>Собаки ищут дом</title>
- <link>https://dogshelp.github.io</link>
- <description>Собаки безвозмездно по договору, привиты, с паспортом. Каждая собака имеет свою историю, находятся на передержках и ждут своего единственного хозяина.</description>
- <language>ru</language>
- <author>https://dogshelp.github.io</author>
- <yandex:analytics type="Yandex" id="87344715"/>
-<item turbo="true">
- <title>Собаки ищут дом</title><link>https://dogshelp.github.io/</link><category>Официальный сайт</category>
- <description>Хотите взять собаку в дар - выбирайте! Собаки привиты, с паспортом. Отдаем в дар по договору, не на цепь, в хорошую семью.</description>
+ <item turbo="true">
+  <title>Собаки ищут дом</title>
+  <link>https://dogshelp.github.io</link>
+  <language>ru</language>
+  <author>https://dogshelp.github.io</author>
+  <yandex:analytics type="Yandex" id="87344715"/>
+  <turbo:content>
+    <![CDATA[
+      <header>
+        <h1>Собаки ищут дом</h1>
+        <h2>Каталог собак</h2>
+        <menu>
+          <a href="https://dogshelp.github.io/#adopt">Выбери друга</a>
+          <a href="https://dogshelp.github.io/#contact">Контакты</a>
+        </menu>
+      </header>
+      <p>Хотите взять собаку в дар - выбирайте! Собаки отдаются бесплатно по договору. Привиты и здоровы, имеют паспорт.</p>
+      <p>Находятся под опекой группы<a title="Telegram" href="https://t.me/dogandi" target="_blank" rel="noopener noreferrer">Собаки Московского района Минска</a>.</p>
+      <h2>Собаки</h2>
+      <figure>
+        <img src="https://dogshelp.github.io/assets/images/jack_logo.jpg">
+        <figcaption>Джек</figcaption>
+      </figure>
+      <p><b>Пол:</b> самец</p>
+      <p><b>Кастрирован:</b> 9.02.2022</p>
+      <p><b>Возраст:</b> ~ 1 года</p>
+      <p><b>Привит:</b> да</p>
+      <div data-block="widget-feedback" data-stick="false">
+        <div data-block="chat" data-type="telegram" data-url="https://t.me/dogandi"></div>
+        <div data-block="chat" data-type="viber" data-url="viber://chat?number=+375445114536"></div>
+      </div>
+    ]]>
+    </turbo:content>
+</item>
