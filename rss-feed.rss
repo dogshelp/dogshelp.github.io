@@ -1,23 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-<rss version="2.0" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru">
-	<channel>
-		<title>Собаки ищут дом</title>
-		<link><![CDATA[https://dogshelp.github.io]]></link>
-		<description>Хотите взять собаку в дар - выбирайте! Собаки привиты, с паспортом. Отдаем в дар по договору, не на цепь, в хорошую семью.</description>
-		<language>ru</language>
-		<pubDate>Tue, 08 Feb 2022 05:31:09 +0200</pubDate>
-
-		<item turbo="true">
-			<guid isPermaLink="false">3320293356</guid>
-			<title>Dogs Help | Собаки ищут дом</title>
-			<link>https://dogshelp.github.io/index.html</link>
-			<author>Администратор</author>
-			<category>Новости сайта</category>
-			<description>Собаки безвозмездно по договору, привиты, с паспортом. Каждая собака имеет свою историю, находятся на передержках и ждут своего единственного хозяина.</description>
-			<turbo:content><![CDATA[<header>	<h1>Dogs Help | СОбаки ищут дом</h1></header><p>Собаки находятся под опекой группы "Собаки Московского района Минска".</p><p><img src="https://dogshelp.github.io/assets/images/rich_logo.jpg"></p>]]></turbo:content>
-			<pubDate>Tue, 08 Feb 2022 05:31:10 +0200</pubDate>
-			<enclosure url="https://dogshelp.github.io/assets/images/dogsHelp.png" type="image/png" />
-		</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8"?>
+ <!--created with www.maxim-m.ru-->
+ <rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/"
+ xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+ <channel>
+ <turbo:cms_plugin>MaxImco Genarator</turbo:cms_plugin>
+ <title>Собаки ищут дом</title>
+ <link>https://dogshelp.github.io</link>
+ <description>Собаки безвозмездно по договору, привиты, с паспортом. Каждая собака имеет свою историю, находятся на передержках и ждут своего единственного хозяина.</description>
+ <language>ru</language>
+ <author>https://dogshelp.github.io</author>
+ <yandex:analytics type="Yandex" id="87344715"/>
+<item turbo="true">
+ <title>Собаки ищут дом</title><link>https://dogshelp.github.io/</link><category>Официальный сайт</category>
+ <description>Хотите взять собаку в дар - выбирайте! Собаки привиты, с паспортом. Отдаем в дар по договору, не на цепь, в хорошую семью.</description>
