@@ -1,6 +1,7 @@
 $(() => {
     const offset = 200;
     const duration = 250;
+    let dataJson;
 
     $(window).scroll(() => {
         const topBarEl = $('.top-bar');
@@ -34,6 +35,13 @@ $(() => {
             bsCollapse.toggle()
         });
     })
+
+    // read json
+    fetch("./assets/data/data.json")
+        .then(response => response.json())
+        .then(parsed => {
+            dataJson = parsed;
+        });
 });
 
 /* $(window).load(() => {
