@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding ="UTF-8"?>
 <rss xmlns:yandex="http://news.yandex.ru"
-    xmlns:media="http://search.yahoo.com/mrss/"
-    xmlns:turbo="http://turbo.yandex.ru"
-    version="2.0">
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
     <channel>
-<!-- Information about the source site  -->
-     <title>Собаки ищут дом</title>
-     <link>https://dogshelp.github.io/</link>
-     <description>Хотите взять собаку в дар - выбирайте! Собаки отдаются бесплатно по договору. Привиты и здоровы, имеют паспорт.</description>
-     <language>ru</language>
-     <turbo:analytics></turbo:analytics>
-     <turbo:adNetwork></turbo:adNetwork>
-     <item turbo="true">
+        <!-- Information about the source site  -->
+        <title>Собаки ищут дом</title>
+        <link>https://dogshelp.github.io/</link>
+        <description>Хотите взять собаку в дар - выбирайте! Собаки отдаются бесплатно по договору. Привиты и здоровы, имеют паспорт.</description>
+        <language>ru</language>
+        <turbo:analytics type="Yandex" id="87344715"></turbo:analytics>
+        <item turbo="true">
             <!-- Page information -->
             <turbo:extendedHtml>true</turbo:extendedHtml>
             <link>https://dogshelp.github.io/index.html</link>
-            <turbo:source></turbo:source>
-            <turbo:topic></turbo:topic>
-            <pubDate>Wed, 16 Feb 2022 10:20:00 +0300
+            <category>Собаки</category>
+            <pubDate>Wed, 16 Feb 2022 10:20:00 +0300</pubDate>
             <author>группа Собаки Московского района Минска</author>
             <metrics>
                 <yandex schema_identifier="87344715">
@@ -28,7 +26,9 @@
                     </breadcrumblist>
                 </yandex>
             </metrics>
-            <yandex:related></yandex:related>
+            <yandex:related type="infinity">
+                <link url="https://dogshelp.github.io/index.html">Собаки ищут дом</link>
+            </yandex:related>
             <turbo:content>
                 <![CDATA[
                     <header>
@@ -39,21 +39,17 @@
                         <a href="https://dogshelp.github.io/#contact">Контакты</a>
                       </menu>
                     </header>
-
                     <p>Хотите взять собаку в дар - выбирайте! Собаки отдаются бесплатно по договору. Привиты и здоровы, имеют паспорт.</p>
                     <p>Находятся под опекой группы<a title="Telegram" href="https://t.me/dogandi" target="_blank" rel="noopener noreferrer">Собаки Московского района Минска</a>.</p>
-                    
-                    <h2>Собаки</h2>
+                    <h3>Собаки</h3>
                     <figure>
                       <img src="https://dogshelp.github.io/assets/images/jack_logo.jpg">
                       <figcaption>Джек</figcaption>
                     </figure>
-
                     <p><b>Пол:</b> самец</p>
                     <p><b>Кастрирован:</b> 9.02.2022</p>
                     <p><b>Возраст:</b> ~ 1 года</p>
                     <p><b>Привит:</b> да</p>
-
                     <div data-block="widget-feedback" data-stick="false">
                       <div data-block="chat" data-type="telegram" data-url="https://t.me/dogandi"></div>
                       <div data-block="chat" data-type="viber" data-url="viber://chat?number=+375445114536"></div>
@@ -61,5 +57,5 @@
                 ]]>
             </turbo:content>
         </item>
-      </channel>
+    </channel>
 </rss>
